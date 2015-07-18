@@ -1,0 +1,7 @@
+{
+    "static_namespace": "static",
+    "default":{
+        "class_path":"webApp/default",
+        "class_name":"default.js"
+    }
+}

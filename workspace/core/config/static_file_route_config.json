@@ -1,0 +1,17 @@
+{
+    "node_type": "namespace",
+    "path" : "static",
+    "route":{
+        "js":{
+            "node_type": "namespace",
+            "path": "js",
+            "route":{
+                "jquery":{
+                    "node_type": "javascript_file",
+                    "content_type": "application/javascript",
+                    "path":"jquery.js"
+                }
+            }
+        }
+    }
+}
