@@ -12,7 +12,8 @@ module.exports ={
             };
         })();
     },
-
+    //监听端口
     listenPort: 8080,
-    corePath: './core/route'
+    //路由器路径
+    routerPath: './core/route'
 }

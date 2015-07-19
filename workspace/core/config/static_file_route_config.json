@@ -12,6 +12,13 @@
                     "path":"jquery.js"
                 }
             }
+        },
+        "page":{
+            "node_type": "namespace",
+            "path" : "html",
+            "route":{
+                "404":{"node_type":"page","content_type": "text/html","path": "404.html"}
+            }
         }
     }
 }

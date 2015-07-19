@@ -1,7 +1,19 @@
 {
     "static_namespace": "static",
+
     "default":{
-        "class_path":"webApp/default",
-        "class_name":"default.js"
+        "type": "dynamic",
+        "path":"webApp/default",
+        "name":"default.js"
+    },
+    "not_found":{
+        "type": "static",
+        "path": "/page/404",
+        "name": "404"
+    },
+    "index":{
+        "type": "router",
+        "path": "webApp/default",
+        "name": "route.js"
     }
 }

@@ -1,17 +1,15 @@
-var abstract_page = require('../../core/base/abstract_handler');
+var abstract_page = require('../../core/base/dynamic_handler');
 
 function default_main(context){
     this.extend(new abstract_page(context));
-};
-
-default_main.prototype.extend({
-    page_load :function(){
-        this.Response.end();
-    }
-});
-
-default_main.prototype.handler_process = function(){
-    this.page_load();
+    //设置配置
+    this.set_config({
+        
+    });
+    //加载页面
+    this.page_load(function(request, response){
+        response.write('a');
+    });
 };
 
 module.exports = default_main;

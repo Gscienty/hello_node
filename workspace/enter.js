@@ -5,7 +5,7 @@ var url = require('url');
 var util = require('util');
 
 config.init();
-var route = require(config.corePath);
+var route = require(config.routerPath);
 var server = new http.Server();
 
 server.on('request', function(request, response){
